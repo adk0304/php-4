@@ -1,7 +1,5 @@
 <?php 
 
-require "ape.php";
-require "frog.php";
 
 class animal{
 	public $name;
@@ -21,8 +19,6 @@ class animal{
 		return "<br>hewan ini berdarah dingin? ".$this->cold_blooded;
 	}
 }
-class ape extends animal {
-	
-}
+
 
  ?>
