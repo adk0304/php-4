@@ -2,6 +2,7 @@
 
 require "animal.php";
 require "ape.php";
+require "frog.php";
 
 $sheep = new animal("shaun");
 
@@ -14,10 +15,15 @@ echo "<br>--<br>";
 
 $sungokong = new ape("kera sakti");
 echo $sungokong->get_name();
-echo $sungokong->yell() // "Auooo"
-/*
+echo $sungokong->get_legs(); // 2
+echo $sungokong->yell(); // "Auooo"
+echo "<br>--<br>";
+
+
 $kodok = new frog("buduk");
-$kodok->jump() ; // "hop hop"*/
+echo $kodok->get_name() ; 
+echo $kodok->get_legs(); // 4
+echo $kodok->jump() ; // "hop hop"
 
 
 
